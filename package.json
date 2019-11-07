@@ -5,7 +5,8 @@
   "main": "lib/health.js",
   "scripts": {
     "lint": "standard lib/health.js",
-    "format": "standard --fix lib/health.js"
+    "format": "standard --fix lib/health.js",
+    "test": "jest"
   },
   "keywords": [
     "nuxt-module",
@@ -16,6 +17,9 @@
   "author": "Johannes Konze <konze@traum-ferienwohnungen.de>",
   "license": "GPL-3.0",
   "devDependencies": {
+    "jest": "^24.9.0",
+    "node-fetch": "^2.6.0",
+    "nuxt-edge": "^2.10.3-26218089.95303180",
     "standard": "^14.3.1"
   }
 }

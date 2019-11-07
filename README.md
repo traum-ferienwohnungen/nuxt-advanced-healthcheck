@@ -31,7 +31,7 @@ To configure a single healthcheck route and the response handler use this refere
 
 ```javascript
   healthcheck: {
-    path: '/alive'
+    path: '/alive',
     handler: (req, res, next) => {
       res.setHeader('application/json')
       res.end(JSON.stringify('Hello World'))
