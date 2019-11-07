@@ -1,0 +1,21 @@
+{
+  "name": "@traum-ferienwohnungen/nuxt-advanced-health",
+  "version": "0.0.1",
+  "description": "Module for adding healthcheck urls to a nuxt project",
+  "main": "lib/health.js",
+  "scripts": {
+    "lint": "standard lib/health.js",
+    "format": "standard --fix lib/health.js"
+  },
+  "keywords": [
+    "nuxt-module",
+    "nuxt",
+    "nuxtjs",
+    "module"
+  ],
+  "author": "Johannes Konze <konze@traum-ferienwohnungen.de>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "standard": "^14.3.1"
+  }
+}
