@@ -69,3 +69,13 @@ When you want to use multiple routes you can use an array - like so:
   ]
 ```
 
+## Options
+
+`path`
+    - The URL of the healthcheck
+    - default: `/healthcheck`
+
+`handler`
+    - Handler function for the request, must end with `res.end(...)` or `next()`
+    - default: Text response with Ok
+    - available params `request, response, next`
