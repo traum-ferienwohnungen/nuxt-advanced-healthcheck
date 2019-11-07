@@ -81,6 +81,23 @@ When you want to use multiple routes you can use an array - like so:
     - available params `request, response, next`
 
 
+## Tests
+
+To run test clone this repository.
+```bash
+git clone git@github.com:traum-ferienwohnungen/nuxt-advanced-healthcheck.git
+```
+
+Then install all dependencies with
+```bash
+npm install
+```
+
+Finally run the test with
+```
+npm run tests
+```
+
 ## License
 
 Published under GPL 3.0
