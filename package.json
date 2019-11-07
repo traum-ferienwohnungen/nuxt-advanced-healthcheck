@@ -1,6 +1,6 @@
 {
   "name": "@traum-ferienwohnungen/nuxt-advanced-healthcheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Module for adding healthcheck urls to a nuxt project",
   "main": "lib/health.js",
   "scripts": {
