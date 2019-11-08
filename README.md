@@ -4,10 +4,10 @@ Module for NuxtJS that adds the provides a healthcheck route.
 
 ## Install
 
-*Installing with NPM*
+*Installing with NPM*   
 `npm i @traum-ferienwohnungen/nuxt-advanced-healthcheck`
 
-*Installing with Yarn*
+*Installing with Yarn*   
 `yarn add @traum-ferienwohnungen/nuxt-advanced-healthcheck`
 
 ## Setup
@@ -21,7 +21,7 @@ module.exports = {
 }
 ```
 
-*The default route for checking the health of your application is now available under `/healthcheck`*
+*The default route for checking the health of your application is now available under `/healthcheck`*   
 It will respond with the `Content-Type: text/plain` and `Ok` as response data.
 
 ## Advanced configuration
@@ -71,13 +71,13 @@ When you want to use multiple routes you can use an array - like so:
 
 ## Options
 
-`path`
+`path`   
     - The URL of the healthcheck
     - default: `/healthcheck`
-
-`handler`
-    - Handler function for the request, must end with `res.end(...)` or `next()`
-    - default: Text response with Ok
+   
+`handler`   
+    - Handler function for the request, must end with `res.end(...)` or `next()`   
+    - default: Text response with Ok   
     - available params `request, response, next`
 
 

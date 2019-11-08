@@ -8,6 +8,10 @@
     "format": "standard --fix lib/health.js",
     "test": "jest"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/traum-ferienwohnungen/nuxt-advanced-healthcheck.git"
+  },
   "keywords": [
     "nuxt-module",
     "nuxt",
